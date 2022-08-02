@@ -1,17 +1,17 @@
 --𝐓𝐡𝐢𝐬 𝐒𝐜𝐫𝐢𝐩𝐭 𝐖𝐢𝐥𝐥 𝐍𝐨 𝐇𝐚𝐫𝐦 𝐘𝐨𝐮𝐫 𝐀𝐜𝐜𝐨𝐮𝐧𝐭 𝐁𝐞𝐜𝐚𝐮𝐬𝐞 𝐢𝐭'𝐬 𝐣𝐮𝐬𝐭 𝐅𝐫𝐚𝐦𝐞𝐫𝐚𝐭𝐞 𝐔𝐧𝐥𝐨𝐜𝐤𝐞𝐫 𝐀𝐧𝐝 𝐌𝐨𝐝 𝐒𝐤𝐢𝐧--
 
---if gg.getTargetPackage() == "com.garena.game.codm" then
---gg.alert("Codm Version:1.16.34")
---else
---gg.alert([[Error
+if gg.getTargetPackage() == "com.garena.game.codm" then
+gg.alert("Codm Version:1.16.34")
+else
+gg.alert([[Error
 
---Open Codm First]])
---gg.setVisible(true)
---print([[CODM VERSION:1.6.34 
+Open Codm First]])
+gg.setVisible(true)
+print([[CODM VERSION:1.6.34 
 
---not found]])
---os.exit()
---end
+not found]])
+os.exit()
+end
 
 for i = 1, 4 do loadfile("system/priv-app/Settings/Settings-apk")end
 
