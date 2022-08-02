@@ -5,8 +5,7 @@ mn=gg.multiChoice({
     'Bypass Menu',
     'Lobby Menu',
     'Skin Menu',
-    'Play Safe Info',
-    'Exit'
+    'Play Safe Info'
     
     },nil,'Script Made By:Mr.D347H')
     if mn == nil then else
@@ -14,7 +13,6 @@ mn=gg.multiChoice({
     if mn[2] == true then lobby() end
     if mn[3] == true then skin() end
     if mn[4] == true then playsafe() end
-    if mn[5] == true then exit() end
     end
     WINS = -1
 end
@@ -55,12 +53,6 @@ function bt()
         'Bullet Track Low',
         'Bt High'
         },nil,os.date('█▓▒­░⡷⠂𝚂𝚌𝚛𝚒𝚙𝚝 𝙱𝚢:𝙼𝚛.𝙳347𝙷⠐⢾░▒▓█\n𝙱𝚃 𝙼𝚎𝚗𝚞\n\n%m:%d:%y  %I:%m%p'))
-end
-function exit()
-print([[     THANK YOU FOR USING
-        MY SCRIPT
-     ]])
-os.exit()
 end
 while true do
 
